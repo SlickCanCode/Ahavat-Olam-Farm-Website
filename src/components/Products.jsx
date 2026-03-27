@@ -1,30 +1,35 @@
 import ProductCard from "./ProductCard";
 import { motion, useInView } from "motion/react"
 import { useRef } from "react";
+import greenChilli from "../assets/green_chilli.png"
+import bellPepper from "../assets/bell_pepper.png"
+import habeneroes from "../assets/habenerous_pepper.png"
+import potatoChips from "../assets/potato_chips.png"
+
 
 const products = [
     {
         name: "Green Chilli Pepper",
         description: "Fresh, spicy peppers perfect for cooking and sauces.",
-        imageSrc: "/src/assets/green_chilli.png",
+        imageSrc: greenChilli,
         link: "https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20green%20chilli%20pepper%2E"
     },
     {
         name: "Bell Pepper",
         description: "Crisp, colorful peppers rich in flavor and nutrients.",
-        imageSrc: "/src/assets/bell_pepper.png",
+        imageSrc: bellPepper,
         link: "https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20bell%20pepper%2E"
     },
     {
         name: "Habeneroes Pepper",
         description: "Hot and aromatic peppers for bold, spicy dishes.",
-        imageSrc: "/src/assets/habenerous_pepper.png",
+        imageSrc: habeneroes,
         link: "https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20habeneroes%20pepper%2E"
     },
     {
         name: "Tasty Sweet Potato Chips",
         description: "Crunchy, naturally sweet chips made from fresh sweet potatoes.",
-        imageSrc: "/src/assets/potato_chips.png",
+        imageSrc: potatoChips,
         link: "https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20Ahavat%20sweet%20potato%20chips%2E"
     }
 ]

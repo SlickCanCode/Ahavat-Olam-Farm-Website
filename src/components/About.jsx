@@ -1,3 +1,6 @@
+import ceoPic from "../assets/ceo_pic1.jpg"
+import yamPlanting from "../assets/yam_plant_pic.jpg"
+import harvestingJoy from "../assets/Harvesting joy in Nigeria's fields.png"
 
 export default function About() {
   return (
@@ -21,7 +24,7 @@ export default function About() {
       <div className="grid gap-12 lg:grid-cols-2 items-center mb-20">
 
         <img
-          src="src\assets\ceo_pic1.jpg"
+          src={ceoPic}
           className="rounded-xl w-full h-80 object-cover shadow-lg hover:scale-105 transition"
           alt="Farm"
         />
@@ -60,7 +63,7 @@ export default function About() {
         </div>
 
         <img
-          src="src\assets\yam_plant_pic.jpg"
+          src={yamPlanting}
           className="rounded-xl w-full h-80 object-cover shadow-lg hover:scale-105 transition"
           alt="Harvest"
         />
@@ -72,7 +75,7 @@ export default function About() {
       <div className="grid gap-12 lg:grid-cols-2 items-center">
 
         <img
-          src="src\assets\Harvesting joy in Nigeria's fields.png"
+          src={harvestingJoy}
           className="rounded-xl w-full h-80 object-cover shadow-lg hover:scale-105 transition"
           alt="Community"
         />

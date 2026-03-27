@@ -6,6 +6,8 @@ import {
   UserGroupIcon
  } from "@heroicons/react/24/outline"
 import Feature from "./Feature"
+import whyPatnerimg from "../assets/why-patner.png"
+
 
 const features = [
   {
@@ -48,7 +50,7 @@ export default function Features() {
           </p>
         </div>
         <div className=" rounded-lg overflow-hidden lg:w-300">
-          <img src="src\assets\why-patner.png" alt="" />
+          <img src={whyPatnerimg} alt="" />
         </div>
       </motion.div>
 

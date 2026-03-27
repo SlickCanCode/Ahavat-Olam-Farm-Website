@@ -1,6 +1,9 @@
 
 import { motion } from "motion/react";
-import { Sprout, Boxes, Factory, Truck } from "lucide-react";
+import { Sprout, Boxes, Factory, Truck } from "lucide-react"
+import communityImage from "../assets/farm_commmunity.png"
+import ceoPic from "../assets/ceo_pic.jpg"
+
 
 export default function InvestorsSection() {
   return (
@@ -115,7 +118,7 @@ export default function InvestorsSection() {
           className="rounded-2xl overflow-hidden shadow-2xl"
         >
           <img
-            src="src/assets/farm_commmunity.png"
+            src={communityImage}
             alt="Farm community"
             className="w-full h-full object-cover"
           />
@@ -245,7 +248,7 @@ export default function InvestorsSection() {
           <div className="text-center">
             <div className="w-28 h-28 rounded-full mx-auto mb-4 overflow-hidden">
               <img
-                src="src/assets/ceo_pic.jpg"
+                src={ceoPic}
                 alt="Founder"
                 className="w-full h-full object-cover"
               />

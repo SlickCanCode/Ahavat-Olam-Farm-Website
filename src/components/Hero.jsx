@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import heroBg from "../assets/hero-bg.png"
 
 export default function Hero() {
 
@@ -7,7 +8,7 @@ export default function Hero() {
 <section className="pt-20">
   <div
     className="relative w-full min-h-[60vh] md:min-h-screen bg-center bg-no-repeat bg-cover"
-    style={{ backgroundImage: "url('/src/assets/hero-bg.png')" }}
+    style={{ backgroundImage: `url(${heroBg})` }}
   >
             <div className="absolute inset-0 bg-black/50"></div>
 
