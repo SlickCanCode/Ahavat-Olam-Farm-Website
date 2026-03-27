@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import { Sprout, Boxes, Factory, Truck } from "lucide-react"
 import communityImage from "../assets/farm_commmunity.png"
-import ceoPic from "../assets/ceo_pic.jpg"
+import ceoPic from "../assets/ceo_pic.jpeg"
 
 
 export default function InvestorsSection() {

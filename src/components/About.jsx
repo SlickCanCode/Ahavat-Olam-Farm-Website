@@ -1,4 +1,4 @@
-import ceoPic from "../assets/ceo_pic1.jpg"
+import ceoPic from "../assets/ceo_pic1.jpeg"
 import yamPlanting from "../assets/yam_plant_pic.jpg"
 import harvestingJoy from "../assets/Harvesting joy in Nigeria's fields.png"
 

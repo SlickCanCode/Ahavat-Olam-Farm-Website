@@ -10,7 +10,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-
+import ahavatOlamLogo from "../assets/ahavat_olam_logo_transparent.png"
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="/home" className="-m-1.5 p-1.5">
             <img
               alt=""
-              src="src\assets\ahavat_olam_logo_transparent.png"
+              src={ahavatOlamLogo}
               className="logo"
             />
           </a>

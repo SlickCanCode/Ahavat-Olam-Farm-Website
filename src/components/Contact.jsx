@@ -43,7 +43,7 @@ export default function ContactUsSection() {
   };
 
   return (
-    <section className="bg-gray-800 text-gray-900 py-30 px-6">
+    <section className="bg-gray-800 text-gray-900 py-30 px-4">
       <div className="max-w-5xl mx-auto text-center mb-16">
         <p className="text-green-600 text-sm tracking-widest uppercase mb-2">
           Get in Touch
