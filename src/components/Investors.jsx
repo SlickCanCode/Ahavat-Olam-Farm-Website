@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import { Sprout, Boxes, Factory, Truck } from "lucide-react"
 import communityImage from "../assets/farm_commmunity.png"
-import ceoPic from "../assets/ceo_pic.jpeg"
+import ceoPic from "../assets/ceo_pic3.jpeg"
 
 
 export default function InvestorsSection() {
@@ -135,7 +135,9 @@ export default function InvestorsSection() {
           </h3>
 
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Our work goes beyond farming. We actively create opportunities for youths and women,
+            Our work goes beyond farming. We offer agribusiness training for
+            individuals who want to learn more about modern farming, crop
+            management,
             empowering local communities through agriculture while building a reliable food system.
           </p>
 
@@ -253,7 +255,7 @@ export default function InvestorsSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <p className="font-semibold">Shallom Peace Adelanwa</p>
+            <p className="font-semibold">Shalom Oluwaseun Adelanwa</p>
             <p className="text-sm text-gray-400">CEO</p>
           </div>
         </motion.div>

@@ -24,7 +24,7 @@ export default function ProductCard({product}) {
                 whileTap={{ scale: 0.95 }}
                 className="mt-auto bg-green-600 text-center text-white py-2 px-4 rounded-lg hover:bg-green-700 transition cursor-pointer"
             >
-            Order Now
+            Place Order
             </motion.a>
         </div>
 

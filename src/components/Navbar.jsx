@@ -63,7 +63,7 @@ export default function Navbar() {
               <span className="sr-only">Ahavat Olam</span>
               <img
                 alt=""
-                src="src\assets\ahavat_olam_logo_transparent.png"
+                src={ahavatOlamLogo}
                 className="logo"
               />
             </a>

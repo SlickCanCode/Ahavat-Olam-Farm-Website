@@ -1,10 +1,12 @@
 import ProductCard from "./ProductCard";
 import { motion, useInView } from "motion/react"
 import { useRef } from "react";
-import greenChilli from "../assets/green_chilli.png"
-import bellPepper from "../assets/bell_pepper.png"
-import habeneroes from "../assets/habenerous_pepper.png"
+import greenChilli from "../assets/gc_pepper.jpg"
+import bellPepper from "../assets/bell_pepper.jpg"
+import habeneroes from "../assets/habeneroes.jpg"
+import tomatoes from "../assets/tomatoes.jpg"
 import potatoChips from "../assets/potato_chips.png"
+import { link } from "motion/react-client";
 
 
 const products = [
@@ -25,6 +27,12 @@ const products = [
         description: "Hot and aromatic peppers for bold, spicy dishes.",
         imageSrc: habeneroes,
         link: "https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20habeneroes%20pepper%2E"
+    },
+    {
+        name: "Fresh Tomatoes",
+        description: "High Quality tomatoes for rich and nutriteous meals",
+        imageSrc: tomatoes,
+        link:"https://wa.me/2348106936560?text=Hello%2C%20i%27m%20interested%20in%20purchasing%20Tomatoes%2E"
     },
     {
         name: "Tasty Sweet Potato Chips",
@@ -54,8 +62,8 @@ export default function Products() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0 }}
             className="text-grey/600 inter-normal pt-5"
-            >From farm to market, 
-            our products are grown responsibly to deliver freshness, quality, and value in every harvest.
+            >We deliver Fresh farm produce nationwide.
+            Our products are grown responsibly to deliver freshness, quality, and value in every harvest.
             </motion.p>
 
 
