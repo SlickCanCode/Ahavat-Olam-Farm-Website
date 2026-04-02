@@ -16,7 +16,7 @@ export default function ContactUsSection() {
     const message = form.querySelector(".message").value;
 
     try {
-      const response = await fetch("https://contact-form-production-0497.up.railway.app/contact", {
+      const response = await fetch("https://contact-form-ymjr.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
